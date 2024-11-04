@@ -6,8 +6,9 @@ const Home = () => {
       {/* First Part: 25-35-40 Ratio */}
       <div style={{ display: 'flex', width: '100%', height: '45%' }}>
         <div style={{ flex: '50%', border: '1px solid #ccc', padding: '10px' }}>
-          <iframe src="http://localhost:3000/d-solo/ae1ylquoka5tsf/consumption?from=1719804999786&to=1720197364335&timezone=browser&refresh=5s&orgId=1&panelId=6&__feature.dashboardSceneSolo" width="700" height="350" frameborder="0"></iframe>
-        </div>
+{/*           <iframe src="http://localhost:3000/d-solo/ae1ylquoka5tsf/consumption?from=1719804999786&to=1720197364335&timezone=browser&refresh=5s&orgId=1&panelId=6&__feature.dashboardSceneSolo" width="700" height="350" frameborder="0"></iframe> */}
+              <iframe src= "https://krishnafauj02.grafana.net/d-solo/ce1vde1ptw7pcb/luminous-dashboard?from=1729843698289&to=1729865298290&timezone=browser&showCategory=Panel%20options&orgId=1&panelId=5&__feature.dashboardSceneSolo" width="700" height="350" frameborder="0"></iframe>
+          </div>
         <div style={{ flex: '35%', border: '1px solid #ccc', padding: '10px' }}>
           <iframe src="http://localhost:3000/d-solo/ae1ylquoka5tsf/consumption?from=1719804999786&to=1720197364335&timezone=browser&refresh=5s&orgId=1&panelId=2&__feature.dashboardSceneSolo" width="450" height="350" frameborder="0"></iframe>
         </div>
