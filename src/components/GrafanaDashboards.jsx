@@ -26,7 +26,7 @@ const GrafanaDashboard = ({ dashboardId }) => {
     <div>
       <h1>{dashboard.dashboard.title}</h1>
       <iframe
-        src={`http://your-grafana-url/d/${dashboardId}`}
+{/*         src={`http://your-grafana-url/d/${dashboardId}`} */}
         width="100%"
         height="600"
         frameBorder="0"
